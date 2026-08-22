@@ -1,0 +1,71 @@
+BÁO CÁO THỐNG KÊ & MÔ TẢ DỮ LIỆU 
+Dataset: data/master_dataset.csv
+
+1. DỮ LIỆU 
+--------------------------------------------------------------------------------
+- Khung thời gian (Time range)      : 2010 - 2024 (15 năm)
+- Kích thước tập dữ liệu (Shape)    : (4926, 24) [4.926 dòng x 24 cột]
+- Tổng số ô dữ liệu (Total cells)   : 118.224 ô
+- Tổng số quốc gia/vùng lãnh thổ    : 254 quốc gia
+- Số dòng có chứa giá trị khuyết    : 3.974 dòng (~80,67% số dòng)
+- Số dòng hoàn chỉnh (Complete rows): 952 dòng (~19,33% số dòng)
+
+2. DỮ LIỆU SAU KHI LỌC NHÓM QUỐC GIA NET-ZERO
+--------------------------------------------------------------------------------
+* Ghi chú về tên 2 quốc gia:
+  - "Czech Republic" trong dataset gốc có tên là "Czechia"
+  - "Micronesia" trong dataset gốc có tên là "Micronesia (country)"
+
+- Khung thời gian (Time range)      : 2010 - 2024
+- Kích thước tập dữ liệu (Shape)    : (2190, 24) [2.190 dòng x 24 cột]
+- Tổng số ô dữ liệu (Total cells)   : 52.560 ô
+- Tổng số quốc gia Net-Zero         : 145 quốc gia
+- Tổng số ô khuyết (Missing cells)  : 3.703 ô (~7,05% tổng số ô)
+- Số dòng có chứa giá trị khuyết    : 1.365 dòng (~62,33% số dòng)
+
+3. DANH SÁCH CÁC QUỐC GIA
+--------------------------------------------------------------------------------
+'Andorra', 'United Arab Emirates', 'Argentina', 'Armenia', 'Antigua and Barbuda', 'Australia', 'Austria', 'Belgium', 
+'Burkina Faso', 'Bangladesh', 'Bulgaria', 'Bahrain', 'Belize', 'Brazil', 'Barbados', 'Brunei', 'Bhutan', 
+'Central African Republic', 'Canada', 'Switzerland', 'Chile', 'China', 'Colombia', 'Comoros', 
+'Cape Verde', 'Costa Rica', 'Cyprus', 'Czech Republic', 'Germany', 'Djibouti', 'Dominica', 'Denmark', 
+'Dominican Republic', 'Ecuador', 'Spain', 'Estonia', 'Ethiopia', 'Finland', 'Fiji', 'France', 'Micronesia', 'Gabon', 
+'United Kingdom', 'Georgia', 'Ghana', 'Gambia', 'Greece', 'Honduras', 'Croatia', 'Haiti', 'Hungary', 'Indonesia', 
+'India', 'Ireland', 'Iran', 'Iraq', 'Iceland', 'Israel', 'Italy', 'Jamaica', 'Jordan', 'Japan', 'Kazakhstan', 
+'Kenya', 'Kyrgyzstan', 'Cambodia', 'Kiribati', 'Saint Kitts and Nevis', 'South Korea', 'Kuwait', 'Laos', 'Lebanon', 
+'Liberia', 'Liechtenstein', 'Sri Lanka', 'Lesotho', 'Lithuania', 'Luxembourg', 'Latvia', 'Morocco', 'Monaco', 'Moldova', 'Mexico', 
+'Marshall Islands', 'Mali', 'Malta', 'Myanmar', 'Montenegro', 'Mongolia', 'Mozambique', 'Mauritania', 'Mauritius', 'Malawi', 'Malaysia', 
+'Namibia', 'Niger', 'Nigeria', 'Netherlands', 'Norway', 'Nepal', 'Nauru', 'New Zealand', 'Oman', 'Pakistan', 'Panama', 'Peru', 'Philippines', 'Palau', 
+'Papua New Guinea', 'Poland', 'Portugal', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Sudan', 'Singapore', 'Solomon Islands', 'Sao Tome and Principe', 
+'Suriname', 'Slovakia', 'Slovenia', 'Sweden', 'Seychelles', 'Togo', 'Thailand', 'East Timor', 'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Tuvalu', 
+'Tanzania', 'Uganda', 'Ukraine', 'Uruguay', 'United States', 'Uzbekistan', 'Venezuela', 'Vietnam', 'Vanuatu', 'Samoa', 'Yemen', 'South Africa', 'Zambia'
+
+4. CHI TIẾT SỐ LƯỢNG GIÁ TRỊ KHUYẾT THEO TỪNG BIẾN SỐ (2.190 DÒNG - 145 QUỐC GIA)
+--------------------------------------------------------------------------------
+STT  Tên biến        Ý nghĩa biến số                         Missing   Tỷ lệ (%)
+--------------------------------------------------------------------------------
+ 1   country_code    Mã ISO-3 quốc gia                             0      0.00%
+ 2   country         Tên quốc gia                                  0      0.00%
+ 3   year            Năm quan sát (2010 - 2024)                    0      0.00%
+ 4   co2_per_capita  Phát thải CO2 bình quân đầu người             0      0.00%
+ 5   co2             Tổng lượng phát thải CO2                      0      0.00%
+ 6   URB             Tỷ lệ đô thị hóa (% dân số)                   0      0.00%
+ 7   PO              Tổng quy mô dân số                            0      0.00%
+ 8   PS              Ổn định chính trị (WGI)                       0      0.00%
+ 9   FDI             Đầu tư FDI ròng (% GDP)                       1      0.05%
+10   GDP             GDP thực bình quân đầu người                  3      0.14%
+11   INF             Tỷ lệ lạm phát (% giảm phát GDP)              4      0.18%
+12   ED              Khí thải metan nông nghiệp                   15      0.68%
+13   IND             Tỷ trọng công nghiệp (% GDP)                 20      0.91%
+14   FT_Mobile       Thuê bao di động trên 100 người              37      1.69%
+15   FT_Internet     Tỷ lệ dùng Internet (% dân số)               51      2.33%
+16   FT_Broadband    Thuê bao băng rộng trên 100 người            59      2.69%
+17   BANK            Chi nhánh NHTM trên 100.000 dân             182      8.31%
+18   DEP             Dư nợ tiền gửi NHTM (% GDP)                 224     10.23%
+19   LOAN            Dư nợ tín dụng NHTM (% GDP)                 225     10.27%
+20   ATM             Máy ATM trên 100.000 dân                    246     11.23%
+21   TO              Độ mở thương mại (% GDP)                    260     11.87%
+22   LCE             Năng lượng tái tạo/các-bon thấp             404     18.45%
+23   NTR             Thu nhập từ tài nguyên (% GDP)              442     20.18%
+24   ef_per_capita   Dấu chân sinh thái bình quân đầu người      935     42.69%
+================================================================================

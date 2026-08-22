@@ -1,0 +1,56 @@
+1. Thông tin chung và Định danh
+    country_code: Mã quốc gia (thường là mã ISO 3 chữ cái).
+
+    country: Tên quốc gia hoặc vùng lãnh thổ.
+
+    year: Năm ghi nhận dữ liệu.
+
+2. Môi trường và Phát thải
+
+    co2_per_capita: Lượng phát thải CO2 bình quân đầu người (tấn/người).
+
+    co2: Tổng lượng phát thải CO2 hàng năm (triệu tấn).
+
+    ef_per_capita: Dấu chân sinh thái bình quân đầu người (Ecological Footprint per capita), đo lường mức độ tiêu thụ tài nguyên thiên nhiên so với khả năng tái tạo của Trái Đất.
+
+3. Tài chính và Ngân hàng (Financial Sector)
+
+    BANK: Số lượng ngân hàng hoặc tài sản của hệ thống ngân hàng.
+
+    ATM: Số lượng máy ATM (thường tính trên số dân hoặc tổng thể).
+
+    DEP: Tiền gửi tại các tổ chức tài chính (Deposits).
+
+    LOAN: Tổng dư nợ tín dụng/cho vay (Loans).
+
+4. Công nghệ và Viễn thông (Fintech / ICT)
+
+    FT_Mobile: Thuê bao điện thoại di động (Mobile subscriptions).
+
+    FT_Broadband: Thuê bao Internet băng thông rộng cố định (Fixed Broadband).
+
+    FT_Internet: Tỷ lệ hoặc số lượng người dùng Internet.
+
+5. Kinh tế vĩ mô và Phát triển (Macroeconomics)
+
+    GDP: Tổng sản phẩm quốc nội.
+
+    LCE: Tiêu thụ năng lượng thấp hoặc hiệu suất năng lượng sạch (Low-Carbon Energy hoặc tương tự tùy mô hình).
+
+    URB: Tỷ lệ dân số thành thị (Urbanization rate).
+
+    FDI: Đầu tư trực tiếp nước ngoài (Foreign Direct Investment).
+
+    NTR: Tài nguyên thiên nhiên (Natural Resources rents hoặc thương mại tài nguyên).
+
+    PO: Tổng dân số (Population).
+
+    TO: Độ mở thương mại (Trade Openness - tổng xuất nhập khẩu so với GDP).
+
+    IND: Giá trị gia tăng ngành công nghiệp (Industrial value added).
+
+    INF: Lạm phát (Inflation) hoặc cơ sở hạ tầng (Infrastructure - tùy thuộc vào từ điển dữ liệu gốc của tác giả).
+
+    PS: Tiết kiệm quốc gia (National Savings) hoặc chỉ số thể chế/chính trị (Political Stability).
+
+    ED: Giáo dục (Education - chi tiêu giáo dục hoặc tỷ lệ đi học).

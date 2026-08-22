@@ -1,0 +1,31 @@
+# Python Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large raw datasets (> 100MB limit on GitHub)
+data/imf_fas_data.csv
+*.zip
+*.tar.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

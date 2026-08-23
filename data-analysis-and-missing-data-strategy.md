@@ -55,7 +55,7 @@ Dưới đây là quy trình chuẩn học thuật để làm sạch và xử l�
 
 ### Bước 2: Đánh Giá & Sàng Lọc Mức Độ Khuyết (Missingness Audit)
 1. **Tính tỷ lệ % Missing cho từng biến và từng quốc gia:**
-   - Nếu một quốc gia bị thiếu liên tục hơn 60% số năm trong giai đoạn 2011–2023 $\rightarrow$ Cân nhắc thay thế bằng quốc gia dự phòng trong nhóm hoặc loại bỏ khỏi mẫu.
+   - Nếu một quốc gia bị thiếu liên tục hơn 60% số năm trong giai đoạn 2011–2024 $\rightarrow$ Cân nhắc thay thế bằng quốc gia dự phòng trong nhóm hoặc loại bỏ khỏi mẫu.
    - Nếu một chỉ số bị thiếu cục bộ vài năm ở giữa chuỗi $\rightarrow$ Áp dụng kỹ thuật nội suy ở Bước 3.
 
 ---

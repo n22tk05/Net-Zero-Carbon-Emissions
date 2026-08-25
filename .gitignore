@@ -19,8 +19,8 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Large raw datasets (> 100MB limit on GitHub)
-data/imf_fas_data.csv
+# Data folder (Local only)
+data/
 *.zip
 *.tar.gz
 

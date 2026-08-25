@@ -24,6 +24,9 @@ data/
 *.zip
 *.tar.gz
 
+# Markdown files (Local only)
+*.md
+
 # OS generated files
 .DS_Store
 Thumbs.db
